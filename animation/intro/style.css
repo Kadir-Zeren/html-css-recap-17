@@ -1,0 +1,9 @@
+/* backgroun-color animation*/
+
+.bg-anime {
+  background-color: bur lywood;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  margin: auto;
+}
