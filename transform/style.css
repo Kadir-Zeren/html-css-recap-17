@@ -90,7 +90,7 @@ height: 200px;
 
 .translate-y {
   background-color: #ffec5c;
-  transform: translateY(150px);
+  /* transform: translateY(150px); */
   /* transform: translateY(-250px); */
 }
 
@@ -108,4 +108,11 @@ height: 200px;
 .skew-div {
   margin: 2rem;
   text-align: center;
+  .image {
+    border: 1px solid saddlebrown;
+    border-radius: 13px;
+    transform: skew(45deg);
+    /* transform: skewX(45deg); */
+    /* transform: skewY(45deg); */
+  }
 }
