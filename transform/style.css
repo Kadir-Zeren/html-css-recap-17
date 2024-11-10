@@ -1,0 +1,29 @@
+.text {
+  text-align: center;
+  margin: 2rem auto;
+  width: 50vw;
+  font-size: 2rem;
+}
+
+/* ******** TRANSFORM-ROTATE ************ */
+/* rotate içinde ... degree (deg) olarak değer
+verilir */
+/* 90 ve 270 deerelecelerde yazılar tam dik
+olduklarından ve 3 boyutlu olarak bakamadığımız
+için gözükmezler */
+
+.rotate-x {
+  background-color: chocolate;
+}
+
+.rotate-y {
+  background-color: crimson;
+}
+
+.rotate {
+  background-color: greenyellow;
+}
+
+.scale-x {
+  background-color: cornflowerblue;
+}
