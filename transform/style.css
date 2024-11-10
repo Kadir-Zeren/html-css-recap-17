@@ -14,16 +14,51 @@ için gözükmezler */
 
 .rotate-x {
   background-color: chocolate;
+  transform: rotateX(180deg);
 }
 
 .rotate-y {
   background-color: crimson;
+  transform: rotateY(180deg);
 }
 
 .rotate {
   background-color: greenyellow;
+  /* transform: rotate(45deg); */
+  /* transform: rotate(-30deg); */
 }
+
+/* ******** TRANSFORM-SCALE ************ */
+/* scale boyutlandırma için kullanılır */
 
 .scale-x {
   background-color: cornflowerblue;
+  transform: scaleX(2);
+  /* transform: scaleX(-1); y eksenine göre simetriğini alır */
+}
+
+.scale-y {
+  background-color: darkorange;
+  transform: scaleY(2);
+  /* transform: scaleY(-1); x eksenine göre simetriğini alır*/
+}
+
+/* .scale {
+  background-color: deeppink;
+}
+
+
+.scale:hover {
+transform: scale(3);
+width: 75vw;
+height: 200px;
+} */
+
+.scale {
+  background-color: deeppink;
+  transform: scale(1.1);
+  &:hover {
+    transform: scale(3);
+    /* transform: scale(1.1); transformla veri, len ölçek orjinal ölçeğimizi değiştirmediği için 1.1 değişiklik olarak algılanmıyor. */
+  }
 }
